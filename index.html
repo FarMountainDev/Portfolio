@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Garrett Henricks's portfolio showcasing projects, skills, and experience as a full-stack developer.">
-    <meta name="keywords" content="Garrett-Hub, Garrett Henricks, Garrett, Henricks, portfolio, full-stack developer, web developer, software developer, programmer, coding, projects, skills, experience">
-    <meta name="author" content="Garrett-Hub">
+    <meta name="keywords" content="FarMountain, Garrett-Hub, Garrett Henricks, Garrett, Henricks, portfolio, full-stack developer, web developer, software developer, programmer, coding, projects, skills, experience">
+    <meta name="author" content="Garrett Henricks">
     <meta name="robots" content="index, follow">
-    <meta property="og:title" content="Garrett-Hub - Full-Stack Developer">
-    <meta property="og:description" content="Garrett-Hub Portfolio - Full-Stack Developer">
+    <meta property="og:title" content="FarMountain.dev - Garrett's Portfolio">
+    <meta property="og:description" content="Garrett's Portfolio - Full-Stack Developer">
     <meta property="og:image" content="TODO_URL_to_image">
     <meta property="og:url" content="TODO_URL_to_portfolio">
-    <title>Garrett-Hub - Full-Stack Developer</title>
+    <title>FarMountain.dev - Full-Stack Portfolio</title>
     <link rel="stylesheet" href="css/boilerplate.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
@@ -19,7 +19,9 @@
 <body>
 <nav>
     <div class="nav-corner-icon">
-        <img src="./images/icons/github-mark-white.svg" class="w-100 h-100" alt="GitHub Portfolio Repo" />
+        <a href="https://github.com/Garrett-Hub/Portfolio" target="_blank">
+            <img src="./images/icons/github-mark-white.svg" class="w-100 h-100" alt="GitHub Portfolio Repo" />
+        </a>
     </div>
     <ul>
         <li><a href="#top">Home</a></li>
@@ -60,6 +62,10 @@
         <div class="about">
             <p>Hi, I'm Garrett! I am a software developer living in Colorado. I love coding, but when I'm not in front of the computer I spend most of my time in the mountains.</p>
             <p>I am a full-stack developer and C# expert.</p>
+            <div class="wip">
+                <img src="./images/icons/wrench-screwdriver.svg" alt="Under Construction" />
+                <p>This site is under construction! Some of the links may not work, yet.</p>
+            </div>
         </div>
     </section>
     
@@ -146,18 +152,54 @@
             </div>
             <div class="basic-grid w-100">
 
+                <!-- MudBlazor Chatbot -->
+                <div class="card relative border-gradient project-card">
+                    <!--<div class="ribbon text-shadow ignore-pointer" data-text="Live Demo!">Live Demo!</div>-->
+                    <div class="h-100 pb-1 align-bottom-center text-shadow text-big absolute z-10 ignore-pointer">
+                        MudBlazor Chatbot
+                    </div>
+                    <div class="project-buttons mt-1 align-top-center absolute z-10">
+                        <a href="javascript:void(0);" class="project-info-button" 
+                           data-src="./images/projects/mudblazor_chatbot.png"
+                           data-text="MudBlazor Chatbot - <a href='https://github.com/Garrett-Hub/MudBlazorChatbot' target='_blank'>GitHub</a>">
+                            <button class="project-icon-button">
+                                <img src="./images/icons/info-circle-white.svg" alt="GitHub">
+                            </button>
+                        </a>
+                        <a href="https://github.com/Garrett-Hub/MudBlazorChatbot" target="_blank">
+                            <button class="project-icon-button">
+                                <img src="./images/icons/github-mark-white.svg" alt="GitHub">
+                            </button>
+                        </a>
+                        <!--<a href="">
+                            <button class="project-icon-button">
+                                <img src="./images/icons/play-circle-white.svg" alt="GitHub">
+                            </button>
+                        </a>-->
+                    </div>
+                    <div style="background-image: url(./images/projects/mudblazor_chatbot.png);"
+                         class="project-thumb cursor-pointer"
+                         data-src="./images/projects/mudblazor_chatbot.png"
+                         data-text="MudBlazor Chatbot - <a href='https://github.com/Garrett-Hub/MudBlazorChatbot' target='_blank'>GitHub</a>">
+                    </div>
+                </div>
+
                 <!-- Unity Navigation System -->
                 <div class="card relative border-gradient project-card">
                     <div class="h-100 pb-1 align-bottom-center text-shadow text-big absolute z-10 ignore-pointer">
                         Unity Navigation System
                     </div>
                     <div class="project-buttons mt-1 p-0 align-top-center absolute z-10">
-                        <a href="">
+                        <a href="javascript:void(0);" class="project-info-button"
+                           data-src="./images/projects/unity_navigation.jpg"
+                           data-text="<p>Unity Navigation System</p>
+                            <p>A lightweight asset for navigation that contains a compass, waypoints, and radar. Built for the Unity Engine.</p>
+                            <p><a href='https://github.com/Garrett-Hub/Unity-Projects' target='_blank'>GitHub</a></p>">
                             <button class="project-icon-button">
                                 <img src="./images/icons/info-circle-white.svg" alt="GitHub">
                             </button>
                         </a>
-                        <a href="https://github.com/Garrett-Hub/Unity-Projects" target="_blank">
+                        <a href="https://github.com/Garrett-Hub/Unity-Projects/tree/main/Navigation-System" target="_blank">
                             <button class="project-icon-button">
                                 <img src="./images/icons/github-mark-white.svg" alt="GitHub">
                             </button>
@@ -168,61 +210,18 @@
                          data-src="./images/projects/unity_navigation.jpg"
                          data-text="<p>Unity Navigation System</p>
                          <p>A lightweight asset for navigation that contains a compass, waypoints, and radar. Built for the Unity Engine.</p>
-                         <p><a href='https://github.com/Garrett-Hub/Unity-Projects' target='_blank'>GitHub</a></p>">
+                         <p><a href='https://github.com/Garrett-Hub/Unity-Projects/tree/main/Navigation-System' target='_blank'>GitHub</a></p>">
                     </div>
                 </div>
 
-                <!-- MudBlazor Chatbot -->
-                <div class="card relative border-gradient project-card">
-                    <div class="ribbon text-shadow ignore-pointer" data-text="Live Demo!">Live Demo!</div>
-                    <div class="h-100 pb-1 align-bottom-center text-shadow text-big absolute z-10 ignore-pointer">
-                        MudBlazor Chatbot
-                    </div>
-                    <div class="project-buttons mt-1 align-top-center absolute z-10">
-                        <a href="">
-                            <button class="project-icon-button">
-                                <img src="./images/icons/info-circle-white.svg" alt="GitHub">
-                            </button>
-                        </a>
-                        <a href="https://github.com/Garrett-Hub/MudBlazorChatbot" target="_blank">
-                            <button class="project-icon-button">
-                                <img src="./images/icons/github-mark-white.svg" alt="GitHub">
-                            </button>
-                        </a>
-                        <a href="">
-                            <button class="project-icon-button">
-                                <img src="./images/icons/play-circle-white.svg" alt="GitHub">
-                            </button>
-                        </a>
-                    </div>
-                    <div style="background-image: url(./images/projects/mudblazor_chatbot.png);"
-                         class="project-thumb cursor-pointer"
-                         data-src="./images/projects/mudblazor_chatbot.png"
-                         data-text="MudBlazor Chatbot - <a href='https://github.com/Garrett-Hub/MudBlazorChatbot' target='_blank'>GitHub</a>">
-                    </div>
-                </div>
-
-                <!-- Placeholder -->
+                <!-- CampNg -->
                 <div class="card relative border-gradient project-card">
                     <div class="h-100 pb-1 align-bottom-center text-shadow text-big absolute z-10 ignore-pointer">
-                        Placeholder Project
+                        CampNg
                     </div>
-                    <div class="project-buttons mt-1 align-top-center absolute z-10">
-                        <a href="">
-                            <button class="project-icon-button">
-                                <img src="./images/icons/info-circle-white.svg" alt="GitHub">
-                            </button>
-                        </a>
-                        <a href="" target="_blank">
-                            <button class="project-icon-button">
-                                <img src="./images/icons/github-mark-white.svg" alt="GitHub">
-                            </button>
-                        </a>
-                    </div>
-                    <div style="background-image: url(./images/placeholder-1920x1080.png);"
-                         class="project-thumb cursor-pointer"
-                         data-src="./images/placeholder-1920x1080.png"
-                         data-text="Placeholder">
+                    <div style="background-image: url(./images/placeholder-1920x1080.png);"></div>
+                    <div class="w-100 h-100 absolute center-content project-wip">
+                        <img src="./images/icons/wrench-screwdriver.svg" alt="Under Construction" />
                     </div>
                 </div>
 

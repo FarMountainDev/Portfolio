@@ -283,6 +283,24 @@ section {
     filter: invert(80%);
 }
 
+.project-wip {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.project-wip img {
+    aspect-ratio: 1 / 1;
+    max-width: 200px;
+    max-height: 200px;
+}
+
 .ribbon {
     position: absolute;
     top: 0;
@@ -436,4 +454,24 @@ section {
     .skill-overlay {
         font-size: 1rem;
     }
+}
+
+.wip {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.wip p {
+    font-weight: bold;
+}
+
+.wip img {
+    width: 100%;
+    height: 100%;
+    max-width: 200px;
+    max-height: 200px;
 }

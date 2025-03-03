@@ -2,6 +2,7 @@
 // Project Gallery
 document.addEventListener('DOMContentLoaded', () => {
     const projectThumbs = document.querySelectorAll('.project-thumb');
+    const projectInfoButtons = document.querySelectorAll('.project-info-button');
     const modal = document.getElementById('photo-modal');
     const modalImg = document.getElementById('modal-img');
     const modalText = document.getElementById('modal-text');
@@ -10,13 +11,19 @@ document.addEventListener('DOMContentLoaded', () => {
     modal.style.display = 'none'; // Ensure the modal is hidden initially
 
     projectThumbs.forEach(item => {
-        item.addEventListener('click', () => {
-            modal.style.display = 'flex';
-            modalImg.src = item.getAttribute('data-src');
-            modalText.innerHTML = item.getAttribute('data-text');
-            document.body.classList.add('no-scroll');
-        });
+        item.addEventListener('click', openModal.bind(null, item));
     });
+    
+    projectInfoButtons.forEach(item => {
+        item.addEventListener('click', openModal.bind(null, item));
+    });
+    
+    function openModal(item) {
+        modal.style.display = 'flex';
+        modalImg.src = item.getAttribute('data-src');
+        modalText.innerHTML = item.getAttribute('data-text');
+        document.body.classList.add('no-scroll');
+    }
 
     closeBtn.addEventListener('click', () => {
         modal.style.display = 'none';
