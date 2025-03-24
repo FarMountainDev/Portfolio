@@ -23,6 +23,15 @@ main {
     flex: 1;
 }
 
+a.default-link {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+a.default-link:hover {
+    text-decoration: underline;
+}
+
 nav {
     position: fixed;
     top: 0;
@@ -365,6 +374,12 @@ section {
     font-size: 40px;
     font-weight: bold;
     cursor: pointer;
+}
+
+.dialog-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: underline;
 }
 
 #modal-text {
