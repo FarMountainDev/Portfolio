@@ -251,6 +251,14 @@ section {
     transform: scale(1.2);
 }
 
+.project-label {
+    background-color: rgba(0,0,0,0.5);
+    box-shadow: 0 0 5px 5px rgba(0,0,0,0.5);
+    border-radius: 5px;
+    padding: 0 5px;
+    margin: 0;
+}
+
 .project-buttons {
     position: absolute;
     top: 0;
