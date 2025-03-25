@@ -27,7 +27,7 @@
         <li><a href="#top" aria-current="page" aria-label="Top of page">Home</a></li>
         <li><a href="#skills" aria-current="page" aria-label="Skills section">Skills</a></li>
         <li><a href="#projects" aria-current="page" aria-label="Project section">Projects</a></li>
-        <!--<li><a href="#top" >Contact</a></li>-->
+        <li><a href="#contact" aria-current="page" aria-label="Contact section">Contact</a></li>
     </ul>
     <div class="nav-corner-icon">
         <a href="https://www.linkedin.com/in/garrett-henricks/" target="_blank" aria-label="LinkedIn Profile">
@@ -63,9 +63,9 @@
     <section id="about">
         <div class="about">
             <p>Hi, I'm Garrett! I am a software developer living in Colorado. I love coding, but when I'm not in front of the computer I spend most of my time in the mountains.</p>
-            <p>I am a full-stack developer and C# expert.</p>
+            <p>I am a full-stack web developer and C# expert. (also a hobbyist Unity game developer &#x1F601;)</p>
             <div class="wip">
-                <img src="./images/icons/wrench-screwdriver.svg" alt="Under Construction" />
+                <img src="./images/icons/wrench-screwdriver.svg" alt="Portfolio Under Construction" />
                 <p>This site is under construction! Some of the projects are still actively being worked on.</p>
             </div>
         </div>
@@ -147,7 +147,7 @@
         </div>
     </section>
 
-    <section id="projects">
+    <section id="projects" class="project-section">
         <div class="container">
             <div class="section-title w-100 text-center text-shadow">
                 PROJECTS
@@ -166,7 +166,7 @@
                     <div class="project-buttons mt-1 align-top-center absolute z-10">
                         <a href="javascript:void(0);" class="project-info-button"
                            data-src="./images/projects/campNg.png"
-                           data-text="<p class='dialog-title'>CampNg Reservation System</p>
+                           data-text="<h6 class='dialog-title'>CampNg Reservation System</h6>
                             <p>Work In Progress!! An application for managing campground reservations created with Angular 19 and .NET 9.</p>
                             <p><a href='https://github.com/FarMountainDev/CampNg' target='_blank' class='default-link'>GitHub</a></p>"
                            aria-label="Open Project Info Modal">
@@ -188,7 +188,7 @@
                     <div style="background-image: url(./images/projects/campNg.png);"
                          class="project-thumb cursor-pointer"
                          data-src="./images/projects/campNg.png"
-                         data-text="<p class='dialog-title'>CampNg Reservation System</p>
+                         data-text="<h6 class='dialog-title'>CampNg Reservation System</h6>
                             <p>Work In Progress!! An application for managing campground reservations created with Angular 19 and .NET 9.</p>
                             <p><a href='https://github.com/FarMountainDev/CampNg' target='_blank' class='default-link'>GitHub</a></p>">
                     </div>
@@ -203,7 +203,7 @@
                     <div class="project-buttons mt-1 align-top-center absolute z-10">
                         <a href="javascript:void(0);" class="project-info-button" 
                            data-src="./images/projects/mudblazor_chatbot.png"
-                           data-text="<p class='dialog-title'>MudBlazor Chatbot</p>
+                           data-text="<h6 class='dialog-title'>MudBlazor Chatbot</h6>
                             <p>An interface for downloading and prompting models with Ollama.</p>
                             <p><a href='https://github.com/FarMountainDev/MudBlazorChatbot' target='_blank' class='default-link'>GitHub</a></p>"
                            aria-label="Open Project Info Modal">
@@ -225,7 +225,7 @@
                     <div style="background-image: url(./images/projects/mudblazor_chatbot.png);"
                          class="project-thumb cursor-pointer"
                          data-src="./images/projects/mudblazor_chatbot.png"
-                         data-text="<p class='dialog-title'>MudBlazor Chatbot</p>
+                         data-text="<h6 class='dialog-title'>MudBlazor Chatbot</h6>
                             <p>An interface for downloading and prompting models with Ollama.</p>
                             <p><a href='https://github.com/FarMountainDev/MudBlazorChatbot' target='_blank' class='default-link'>GitHub</a></p>">
                     </div>
@@ -239,7 +239,7 @@
                     <div class="project-buttons mt-1 p-0 align-top-center absolute z-10">
                         <a href="javascript:void(0);" class="project-info-button"
                            data-src="./images/projects/unity_navigation.jpg"
-                           data-text="<p class='dialog-title'>Unity Navigation System</p>
+                           data-text="<h6 class='dialog-title'>Unity Navigation System</h6>
                             <p>A lightweight asset for navigation that contains a compass, waypoints, and radar. Built for the Unity Engine.</p>
                             <p><a href='https://github.com/FarMountainDev/Unity-Projects' target='_blank' class='default-link'>GitHub</a></p>"
                            aria-label="Open Project Info Modal">
@@ -256,13 +256,35 @@
                     <div style="background-image: url(./images/projects/unity_navigation.jpg);"
                          class="project-thumb cursor-pointer"
                          data-src="./images/projects/unity_navigation.jpg"
-                         data-text="<p class='dialog-title'>Unity Navigation System</p>
+                         data-text="<h6 class='dialog-title'>Unity Navigation System</h6>
                             <p>A lightweight asset for navigation that contains a compass, waypoints, and radar. Built for the Unity Engine.</p>
                             <p><a href='https://github.com/FarMountainDev/Unity-Projects/tree/main/Navigation-System' target='_blank' class='default-link'>GitHub</a></p>">
                     </div>
                 </div>
 
             </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section center-content">
+        <div class="section-title w-100 text-center text-shadow">
+            CONTACT INFORMATION
+        </div>
+        <div class="contact-info">
+            <ul>
+                <li><a href="https://github.com/FarMountainDev" target="_blank" aria-label="GitHub Profile">
+                    <img src="./images/icons/github-mark-white.svg" class="contact-icon" alt="GitHub" />
+                    GitHub Profile
+                </a></li>
+                <li><a href="https://www.linkedin.com/in/garrett-henricks/" target="_blank" aria-label="LinkedIn Profile">
+                    <img src="./images/icons/linkedin.svg" class="contact-icon" alt="LinkedIn" />
+                    LinkedIn Profile
+                </a></li>
+                <li><a href="./docs/resume_Garrett_Henricks_2025.pdf" target="_blank" aria-label="Download Résumé">
+                    <img src="./images/icons/resume.svg" class="contact-icon" alt="Résumé" />
+                    Download Résumé
+                </a></li>
+            </ul>
         </div>
     </section>
     
