@@ -19,18 +19,20 @@
 <body>
 <nav>
     <div class="nav-corner-icon">
-        <a href="https://github.com/FarMountainDev/Portfolio" target="_blank">
+        <a href="https://github.com/FarMountainDev/Portfolio" target="_blank" aria-label="GitHub Portfolio Repo">
             <img src="./images/icons/github-mark-white.svg" class="w-100 h-100" alt="GitHub Portfolio Repo" />
         </a>
     </div>
     <ul>
-        <li><a href="#top">Home</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#top">Contact</a></li>
+        <li><a href="#top" aria-current="page" aria-label="Top of page">Home</a></li>
+        <li><a href="#skills" aria-current="page" aria-label="Skills section">Skills</a></li>
+        <li><a href="#projects" aria-current="page" aria-label="Project section">Projects</a></li>
+        <!--<li><a href="#top" >Contact</a></li>-->
     </ul>
     <div class="nav-corner-icon">
-        <img src="./images/icons/waxing-crescent-moon.svg" class="w-100 h-100" alt="Dark Mode Toggle" />
+        <a href="https://www.linkedin.com/in/garrett-henricks/" target="_blank" aria-label="LinkedIn Profile">
+            <img src="./images/icons/linkedin-white.svg" class="w-100 h-100" alt="My LinkedIn" />
+        </a>
     </div>
 </nav>
 <header id="top">
@@ -64,7 +66,7 @@
             <p>I am a full-stack developer and C# expert.</p>
             <div class="wip">
                 <img src="./images/icons/wrench-screwdriver.svg" alt="Under Construction" />
-                <p>This site is under construction! Some of the links may not work, yet.</p>
+                <p>This site is under construction! Some of the projects are still actively being worked on.</p>
             </div>
         </div>
     </section>
@@ -165,15 +167,16 @@
                         <a href="javascript:void(0);" class="project-info-button"
                            data-src="./images/projects/campNg.png"
                            data-text="<p class='dialog-title'>CampNg Reservation System</p>
-                            <p>Work In Progress!! An application for managing campground reservations created with Angular 19 and .NET.</p>
-                            <p><a href='https://github.com/FarMountainDev/CampNg' target='_blank' class='default-link'>GitHub</a></p>">
+                            <p>Work In Progress!! An application for managing campground reservations created with Angular 19 and .NET 9.</p>
+                            <p><a href='https://github.com/FarMountainDev/CampNg' target='_blank' class='default-link'>GitHub</a></p>"
+                           aria-label="Open Project Info Modal">
                             <button class="project-icon-button">
-                                <img src="./images/icons/info-circle-white.svg" alt="GitHub">
+                                <img src="./images/icons/info-circle-white.svg" alt="Project Information Modal">
                             </button>
                         </a>
-                        <a href="https://github.com/FarMountainDev/CampNg" target="_blank">
+                        <a href="https://github.com/FarMountainDev/CampNg" target="_blank" aria-label="CampNg GitHub Repo">
                             <button class="project-icon-button">
-                                <img src="./images/icons/github-mark-white.svg" alt="GitHub">
+                                <img src="./images/icons/github-mark-white.svg" alt="GitHub Repository">
                             </button>
                         </a>
                         <!--<a href="">
@@ -186,7 +189,7 @@
                          class="project-thumb cursor-pointer"
                          data-src="./images/projects/campNg.png"
                          data-text="<p class='dialog-title'>CampNg Reservation System</p>
-                            <p>Work In Progress!! An application for managing campground reservations created with Angular 19 and .NET.</p>
+                            <p>Work In Progress!! An application for managing campground reservations created with Angular 19 and .NET 9.</p>
                             <p><a href='https://github.com/FarMountainDev/CampNg' target='_blank' class='default-link'>GitHub</a></p>">
                     </div>
                 </div>
@@ -202,14 +205,15 @@
                            data-src="./images/projects/mudblazor_chatbot.png"
                            data-text="<p class='dialog-title'>MudBlazor Chatbot</p>
                             <p>An interface for downloading and prompting models with Ollama.</p>
-                            <p><a href='https://github.com/FarMountainDev/MudBlazorChatbot' target='_blank' class='default-link'>GitHub</a></p>">
+                            <p><a href='https://github.com/FarMountainDev/MudBlazorChatbot' target='_blank' class='default-link'>GitHub</a></p>"
+                           aria-label="Open Project Info Modal">
                             <button class="project-icon-button">
-                                <img src="./images/icons/info-circle-white.svg" alt="GitHub">
+                                <img src="./images/icons/info-circle-white.svg" alt="Project Information Modal">
                             </button>
                         </a>
-                        <a href="https://github.com/FarMountainDev/MudBlazorChatbot" target="_blank">
+                        <a href="https://github.com/FarMountainDev/MudBlazorChatbot" target="_blank" aria-label="MudBlazor Chatbot GitHub Repo">
                             <button class="project-icon-button">
-                                <img src="./images/icons/github-mark-white.svg" alt="GitHub">
+                                <img src="./images/icons/github-mark-white.svg" alt="GitHub Repository">
                             </button>
                         </a>
                         <!--<a href="">
@@ -237,14 +241,15 @@
                            data-src="./images/projects/unity_navigation.jpg"
                            data-text="<p class='dialog-title'>Unity Navigation System</p>
                             <p>A lightweight asset for navigation that contains a compass, waypoints, and radar. Built for the Unity Engine.</p>
-                            <p><a href='https://github.com/FarMountainDev/Unity-Projects' target='_blank' class='default-link'>GitHub</a></p>">
+                            <p><a href='https://github.com/FarMountainDev/Unity-Projects' target='_blank' class='default-link'>GitHub</a></p>"
+                           aria-label="Open Project Info Modal">
                             <button class="project-icon-button">
-                                <img src="./images/icons/info-circle-white.svg" alt="GitHub">
+                                <img src="./images/icons/info-circle-white.svg" alt="Project Information Modal">
                             </button>
                         </a>
-                        <a href="https://github.com/FarMountainDev/Unity-Projects/tree/main/Navigation-System" target="_blank">
+                        <a href="https://github.com/FarMountainDev/Unity-Projects/tree/main/Navigation-System" target="_blank" aria-label="Unity Navigation System GitHub Repo">
                             <button class="project-icon-button">
-                                <img src="./images/icons/github-mark-white.svg" alt="GitHub">
+                                <img src="./images/icons/github-mark-white.svg" alt="GitHub Repository">
                             </button>
                         </a>
                     </div>
@@ -260,14 +265,15 @@
             </div>
         </div>
     </section>
+    
 </main>
 <footer>
     <div class="spacer foot-waves"></div>
     <div class="py-1 text-center text-shadow text-big bg-primary">&copy; 2025 FarMountain.dev</div>
 </footer>
-<div class="modal" id="photo-modal">
-    <span class="close">&times;</span>
-        <img src="./images/placeholder-1920x1080.png" alt="Project Gallery" class="modal-content" id="modal-img">
+<div class="modal" id="photo-modal" aria-modal="true" aria-labelledby="modal-title" aria-hidden="true">
+    <span class="close" aria-label="Close modal">&times;</span>
+        <img src="./images/placeholder-1920x1080.png" alt="Project Screenshot" class="modal-content" id="modal-img">
     <div id="modal-text"></div>
 </div>
 <script src="js/scripts.js"></script>
