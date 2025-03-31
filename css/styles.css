@@ -99,7 +99,7 @@ nav ul li a:focus::after {
     }
 
     nav ul {
-        gap: 1rem;
+        gap: 0.8rem;
     }
     
     .nav-corner-icon {
@@ -190,6 +190,16 @@ section {
     border-bottom: 3px solid var(--primary-color);
 }
 
+@media (max-width: 480px) {
+    .head-container {
+        padding: 4rem 1rem 0 1rem;
+    }
+
+    .section-title {
+        font-size: 1.5rem;
+    }
+}
+
 .about {
     width: 90%;
     max-width: 800px;
@@ -239,6 +249,7 @@ section {
 /* * * Projects * * */
 .project-section {
     padding: 6rem 0 0;
+    margin-bottom: 4rem;
 }
 
 .project-card .project-buttons {
@@ -516,6 +527,23 @@ section {
     color: var(--secondary-color);
 }
 
+@media (max-width: 480px) {
+    .contact-info {
+        width: 100%;
+        max-width: 300px;
+    }
+    
+    .contact-icon{
+        width: 20px;
+        height: 20px;
+    }
+    
+    .contact-info li {
+        font-size: 1.2rem;
+        gap: 1rem;
+    }
+}
+
 /* * * Under Construction * * */
 .wip {
     display: flex;
@@ -535,4 +563,11 @@ section {
     height: 100%;
     max-width: 200px;
     max-height: 200px;
+}
+
+@media (max-width: 480px) {
+    .wip img {
+        max-width: 120px;
+        max-height: 120px;
+    }
 }
